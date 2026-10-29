@@ -1,0 +1,8 @@
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.6.1
+onnxruntime==1.19.2
+skl2onnx==1.20.0
+rdkit==2023.9.6
+# gradio 5.35 needs requests, which huggingface_hub>=1.0 no longer installs
+huggingface_hub<1.0
