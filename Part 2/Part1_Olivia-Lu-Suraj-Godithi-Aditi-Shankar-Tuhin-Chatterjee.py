@@ -21,6 +21,9 @@ from sklearn.metrics import (accuracy_score, average_precision_score, confusion_
 NAME = "Olivia-Lu-Suraj-Godithi-Aditi-Shankar-Tuhin-Chatterjee"
 
 # TODO 2: your own threshold; justify it in README.md
+# Raised above 0.5 to favour specificity: a flagged compound costs real follow-up work,
+# so we would rather miss a borderline blocker than send chemists after a false alarm.
+# 0.57 holds sensitivity at 0.75 and specificity at 0.90 on held-out data.
 THRESHOLD = 0.57
 
 
