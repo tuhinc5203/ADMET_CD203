@@ -2,7 +2,7 @@
 
 **Group 3:** Suraj Godithi, Olivia Lu, Aditi Shankar, Tuhin Chatterjee
 
-**Web app:** TODO - add the Hugging Face Space URL after deployment
+**Web app:** https://herg-blocker-app.onrender.com (hosted on Render's free tier, so the first visit after a period of inactivity can take about a minute to wake up)
 
 | File | What it is |
 |---|---|
